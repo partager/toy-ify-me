@@ -1,0 +1,5 @@
+{
+  "name": "Toy-ify Me!",
+  "description": "An AI-powered application that transforms your photos into various collectible toy styles using Gemini. Upload an image, choose a style like Funko Pop or LEGO, and watch your picture turn into a unique toy figure.",
+  "requestFramePermissions": []
+}
