@@ -1,10 +1,11 @@
-
 import { GoogleGenAI } from "@google/genai";
 import type { ToyStyle } from '../types';
 
-const API_KEY = process.env.API_KEY;
+// FIX: The API key must be obtained from `process.env.API_KEY` as per the guidelines.
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 if (!API_KEY) {
+  // FIX: Updated the error message to correspond to the correct environment variable.
   throw new Error("API_KEY environment variable is not set");
 }
 
